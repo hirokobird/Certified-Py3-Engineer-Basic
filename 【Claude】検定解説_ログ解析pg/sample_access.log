@@ -1,0 +1,20 @@
+2024-02-01 10:15:23 INFO User login successful user_id=1001 ip=192.168.1.100
+2024-02-01 10:16:45 ERROR Database connection failed error=timeout retry=1
+2024-02-01 10:17:30 INFO Page accessed path=/home user_id=1001
+2024-02-01 10:18:12 WARNING Slow query detected query_time=3.5s table=users
+2024-02-01 10:19:05 INFO User logout user_id=1001
+2024-02-01 10:20:15 ERROR File not found path=/images/logo.png status=404
+2024-02-01 10:21:33 INFO User login successful user_id=1002 ip=192.168.1.101
+2024-02-01 10:22:48 ERROR Database connection failed error=timeout retry=2
+2024-02-01 10:23:55 INFO Page accessed path=/products user_id=1002
+2024-02-01 10:25:10 WARNING Memory usage high current=85% threshold=80%
+2024-02-01 10:26:22 INFO User login successful user_id=1003 ip=192.168.1.102
+2024-02-01 10:27:40 ERROR Invalid request payload=malformed_json endpoint=/api/data
+2024-02-01 10:28:15 INFO Page accessed path=/contact user_id=1003
+2024-02-01 10:29:30 WARNING Disk space low available=15% threshold=20%
+2024-02-01 10:30:45 INFO User logout user_id=1002
+2024-02-01 10:31:50 ERROR Authentication failed user=admin ip=192.168.1.200
+2024-02-01 10:32:20 INFO System backup started
+2024-02-01 10:35:40 INFO System backup completed duration=200s
+2024-02-01 10:36:15 WARNING Rate limit exceeded ip=192.168.1.105 endpoint=/api/search
+2024-02-01 10:37:25 ERROR Database connection failed error=max_connections retry=3
