@@ -1,11 +1,11 @@
-import argparse
+# import argparse
 
-parser = argparse.ArgumentParser() #argparseを使う準備
-parser.add_argument("--head") #オプション引数の定義
-parser.add_argument("body", nargs="+") #引数の定義
-#引数の定義は3、4…行と追加可能
-args = parser.parse_args() #判断と整理
-print(args)
+# parser = argparse.ArgumentParser() #argparseを使う準備
+# parser.add_argument("--head") #オプション引数の定義
+# parser.add_argument("body", nargs="+") #引数の定義
+# #引数の定義は3、4…行と追加可能
+# args = parser.parse_args() #判断と整理
+# print(args)
 
 # ＊＊＊説明資料用＊＊＊
 
