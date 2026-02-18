@@ -1,0 +1,15 @@
+# No.22
+# 内包表記
+num = [[1,2,3,4,5],
+       [6,7,8,9,10]]
+
+col = [row[2] for row in num]
+print(col)
+
+print("===========")
+
+# 展開
+col2 = []
+for row2 in num:
+    col2.append(row2[2])
+print(col2)
