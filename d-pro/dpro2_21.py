@@ -11,6 +11,3 @@ x =True
 y = False 
 print(not x == y) #比較演算子の方が優先される
 
-name1, name2, name3, name4 = '', 'suzuki', 'tanaka', 'sato'
-selected_name = name1 or name2 or name3 or name4
-print(selected_name)
