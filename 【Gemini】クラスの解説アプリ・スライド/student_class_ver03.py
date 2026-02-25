@@ -125,7 +125,7 @@ input_frame = tk.Frame(root, pady=10)
 input_frame.pack()
 
 # --- 入力項目の配置 ---
-# ★クラス名選択（プルダウンに変更）
+# ★クラス名選択（プルダウン）
 tk.Label(input_frame, text="クラス:").grid(row=0, column=0)
 combo_classname = ttk.Combobox(input_frame, values=["普通科", "体育科"], width=8, state="readonly")
 combo_classname.current(0) # 初期値は普通科
