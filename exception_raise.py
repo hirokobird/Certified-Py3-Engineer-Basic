@@ -23,7 +23,6 @@ try:
     
     # inputの時点では int() にせず、ただの文字列として受け取る
     user_input = input("点数を入力：") 
-    
     # 関数に文字列のまま引数を渡す
     input_score(user_input)
 
